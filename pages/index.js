@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
+import Navigation from '../components/Navigation';
 export default function Home() {
   return (
     <div>
@@ -12,7 +13,7 @@ export default function Home() {
       <Header/>
 
       {/* Navigation Bar */}
-      
+      <Navigation/>
 
       {/* Card Layout */}
     </div>

@@ -7,7 +7,6 @@ export default function Home() {
         <title>Hulu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1> Empty NEXTJS Application.</h1>
 
       {/* Header */}
       <Header/>

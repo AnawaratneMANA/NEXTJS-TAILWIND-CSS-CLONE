@@ -13,8 +13,8 @@ import {
 
 function Header() {
     return (
-      <div>
-        <div>
+        <header className="flex flex-col">
+        <div className="flex flex-grow justify-evenly max-w-2xl">
           <HeaderItem title="HOME" Icon={HomeIcon} />
           <HeaderItem title="TRANDING" Icon={LightningBoltIcon} />
           <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
@@ -22,7 +22,6 @@ function Header() {
           <HeaderItem title="SEARCH" Icon={SearchIcon} />
           <HeaderItem title="ACCOUNT" Icon={UserIcon} />
         </div>
-        <header className="">
           <Image
             className="object-contain"
             src={huluImage}
@@ -30,7 +29,6 @@ function Header() {
             height={100}
           />
         </header>
-      </div>
     );
 }
 

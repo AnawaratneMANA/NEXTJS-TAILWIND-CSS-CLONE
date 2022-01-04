@@ -13,8 +13,8 @@ import {
 
 function Header() {
     return (
-        <header className="flex flex-col">
-        <div className="flex flex-grow justify-evenly max-w-2xl">
+        <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
+        <div className="flex flex-grow justify-evenly max-w-2xl h-auto">
           <HeaderItem title="HOME" Icon={HomeIcon} />
           <HeaderItem title="TRANDING" Icon={LightningBoltIcon} />
           <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />

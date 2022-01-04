@@ -1,9 +1,11 @@
 import Image from "next/image";
+import huluImage from '../Images/hulu-image.png'
+
 function Header() {
     return (
         <header className="">
             <Image className="object-contain" 
-            src="/../Images/hulu-image.png" 
+            src={huluImage} 
             width={200} 
             height={100}/>
         </header>

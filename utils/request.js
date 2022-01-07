@@ -12,8 +12,20 @@ export default {
         title: 'Comedy',
         url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
     },
-    fetchMore2: {
+    fetchMore3: {
         title: 'Horror Movies',
         url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
-    }
+    },
+    fetchMore6: {
+        title: 'Horror Movies',
+        url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
+    },
+    fetchMore8: {
+        title: 'Horror Movies',
+        url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
+    },
+    fetchMore9: {
+        title: 'Horror Movies',
+        url: `/trending/all/week?api_key=${API_KEY}&language=en-US`
+    },
 }

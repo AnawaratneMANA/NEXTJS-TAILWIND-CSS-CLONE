@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Navigation from '../components/Navigation';
+import Results from '../components/Results';
 export default function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ export default function Home() {
       <Navigation/>
 
       {/* Card Layout */}
+      <Results/>
     </div>
   );
 }

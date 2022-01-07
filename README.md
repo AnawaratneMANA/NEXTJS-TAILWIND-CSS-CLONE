@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) Hulu Steaming Web site clone. [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![GitHub Logo]('Images/hulu-tailwind-clone-image.png')
+![GitHub Logo]('hulu-tailwind-clone-image.png')
 
 ## Getting Started
 

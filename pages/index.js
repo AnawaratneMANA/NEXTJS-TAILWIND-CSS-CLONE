@@ -27,10 +27,16 @@ export default function Home(props) {
 // Server Side rendering function
 export async function getServerSideProps(context){
   const genre = context.query.genre;
-  const request = await fetch(
-    `https://api.themoviedb.org/3${
-    requests[genre]?.url || requests.fetchTrending.url}`).then((res) => res.json());
-
+  var request;
+  try {
+    request = await fetch(
+      `https://api.themoviedb.org/3${
+      requests[genre]?.url || requests.fetchTrending.url}`).then((res) => res.json());
+  }
+  catch(err) {
+    console.log("Can't Serializable the content comming from the API (Movie Database)")
+  }
+  
     return {
       props: {
         results: request.results,
